@@ -45,6 +45,15 @@
 % ====================
 
 \begin{document}
+\addtobeamertemplate{headline}{}
+{
+    \begin{tikzpicture}[remember picture,overlay]
+      \node [anchor=north west, inner sep=3cm] at ([xshift=0.0cm,yshift=1.0cm]current page.north west)
+      {\includegraphics[height=5.0cm]{logos/uc-logo-white.eps}};
+      \node [anchor=north east, inner sep=3cm] at ([xshift=0.0cm,yshift=2.5cm]current page.north east)
+      {\includegraphics[height=8.0cm]{logos/cs-logo-white.png}};
+    \end{tikzpicture}
+}
 
 \begin{frame}[t]
 \begin{columns}[t]
