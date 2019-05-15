@@ -8,8 +8,6 @@ Gemini is a modern LaTeX [beamerposter] theme.
 </a>
 </p>
 
-[![Build Status](https://travis-ci.org/anishathalye/gemini.svg?branch=master)](https://travis-ci.org/anishathalye/gemini)
-
 # Dependencies
 
 * A TeX installation that includes [LuaTeX]
