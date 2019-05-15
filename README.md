@@ -3,8 +3,8 @@
 Gemini is a modern LaTeX [beamerposter] theme.
 
 <p align="center">
-<a href="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/samples/poster.pdf">
-<img src="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/samples/poster.pdf">
+<a href="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/raw/samples/poster.pdf">
+<img src="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/raw/samples/poster.png">
 </a>
 </p>
 
