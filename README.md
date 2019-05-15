@@ -3,8 +3,8 @@
 Gemini is a modern LaTeX [beamerposter] theme.
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini-small.png">
+<a href="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/samples/poster.pdf">
+<img src="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/samples/poster.pdf">
 </a>
 </p>
 
@@ -22,44 +22,14 @@ Gemini is a modern LaTeX [beamerposter] theme.
 1. In `poster.tex`, set up your paper size, column layout, and scale the
    content as necessary
 
-1. Make a copy of `beamercolorthemegemini.sty`, update the `\usecolortheme`
-   line in `poster.tex`, and theme the poster to your liking (optional, but
-   highly recommended)
+1. Edit `beamercolorthemeuchicago.sty` to theme the poster to your liking (optional,
+   but highly recommended)
 
 1. Run `make` to build your poster
 
 # FAQ
 
-See the [FAQ] in the Wiki for answers to frequently asked questions such as how
-to add an institution logo to the poster.
-
-# Themes
-
-Gemini currently includes three color themes:
-
-* `gemini` (default)
-* `mit`
-* `labsix`
-
-The alternative themes are intended to be inspiration for you to make your own
-color theme. You're highly recommended to make your own color theme (it's
-really easy!) or use the default Gemini theme.
-
-## MIT theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit-small.png">
-</a>
-</p>
-
-## LabSix theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix-small.png">
-</a>
-</p>
+See the [FAQ] in the Wiki for answers to frequently asked questions.
 
 # Design goals
 
