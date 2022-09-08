@@ -47,12 +47,10 @@
 % ====================
 
 % List
-\makeatletter
 \def\@listi{\leftmargin\leftmarginii
 \topsep 1ex % spacing before
 \parsep 0\p@ \@plus\p@
 \itemsep 0.5ex} % spacing between
-\makeatother
 
 % Itemize
 
@@ -132,9 +130,15 @@
         \usebeamerfont{headline}
         \vskip3ex
         \centering
+        \ifx \inserttitle \empty \else
         {\usebeamerfont{headline title}\usebeamercolor[fg]{headline title}\inserttitle\\[0.5ex]}
+        \fi
+        \ifx \beamer@shortauthor \empty \else
         {\usebeamerfont{headline author}\usebeamercolor[fg]{headline author}\insertauthor\\[1ex]}
+        \fi
+        \ifx \insertinstitute \empty \else
         {\usebeamerfont{headline institute}\usebeamercolor[fg]{headline institute}\insertinstitute\\[1ex]}
+        \fi
       \end{column}
       \begin{column}{\maxlogowidth}
         \vskip5ex
@@ -197,6 +201,33 @@
   \vskip-2ex
 }
 \setbeamertemplate{block alerted end}
+{
+  \end{adjustwidth}
+  \vskip1ex
+  \end{beamercolorbox}
+  \vskip0pt
+  \vspace*{2ex}
+}
+
+% Example Block
+\setbeamertemplate{block example begin}
+{
+  \begin{beamercolorbox}[colsep*=0ex,dp=2ex,center]{block example title}
+    \vskip0pt
+    \usebeamerfont{block title}\insertblocktitle
+    \vskip-1.25ex
+    \begin{beamercolorbox}[colsep=0.025ex]{block example separator}\end{beamercolorbox}
+  \end{beamercolorbox}
+  {\parskip0pt\par}
+  \usebeamerfont{block body}
+  \vskip-0.5ex
+  \begin{beamercolorbox}[colsep*=0ex]{block example body}
+  \justifying
+  \begin{adjustwidth}{1ex}{1ex}
+  \setlength{\parskip}{1ex}
+  \vskip-2ex
+}
+\setbeamertemplate{block example end}
 {
   \end{adjustwidth}
   \vskip1ex
