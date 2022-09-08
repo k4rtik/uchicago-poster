@@ -17,9 +17,14 @@
 \usepackage{booktabs}
 \usepackage{doi}
 \usepackage[numbers]{natbib}
+\usepackage{microtype}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.17}
+
+\pdfstringdefDisableCommands{%
+\def\translate#1{#1}%
+}
 
 % ====================
 % Lengths
