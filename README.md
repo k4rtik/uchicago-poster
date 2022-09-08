@@ -25,23 +25,10 @@ A fork of [Gemini](https://github.com/anishathalye/gemini).
 
 ## FAQ
 
-See the [FAQ] in the gemini's wiki for answers to frequently asked questions.
-
-## Design goals
-
-* **Minimal**: clean and easy to read, so that the emphasis is on the content
-* **Batteries included**: works and looks good out of the box
-* **Easy theming**: easy to create and use a new color theme
-
-## Contributing
-
-Contributions to Gemini such as bug reports, new themes, and new poster
-components are greatly appreciated! Given the subjective nature of design,
-you're encouraged to open an issue or pull request early to get feedback before
-investing a lot of time in implementing a new feature.
+See the [gemini FAQ] for answers to frequently asked questions.
 
 [LuaTeX]: http://www.luatex.org/
 [CTAN]: https://ctan.org/
 [Raleway]: https://www.fontsquirrel.com/fonts/raleway
 [Lato]: https://www.fontsquirrel.com/fonts/lato
-[FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
+[gemini FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
