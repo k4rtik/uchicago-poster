@@ -1,19 +1,11 @@
-# Gemini
+# Unofficial Poster Template for UChicago Computer Science
 
-Gemini is a modern LaTeX [beamerposter] theme.
-
-<p align="center">
-<a href="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/raw/samples/poster.pdf">
-<img src="https://rev.cs.uchicago.edu/k4rtik/gemini-uccs/raw/samples/poster.png">
-</a>
-</p>
-
-If you're looking for a beamer presentation theme, take a look at [Auriga].
+A fork of [Gemini](https://github.com/anishathalye/gemini).
 
 ## Dependencies
 
 * A TeX installation that includes [LuaTeX]
-    * You also need `latexmk` if you want to use the provided `Makefile`
+  * You also need `latexmk` if you want to use the provided `Makefile`
 * LaTeX package dependencies including beamerposter (these usually come with
   your TeX installation, but if not, you can get them from [CTAN])
 * [Raleway] and [Lato], which are both available under Open Font License
@@ -33,8 +25,7 @@ If you're looking for a beamer presentation theme, take a look at [Auriga].
 
 ## FAQ
 
-See the [FAQ] in the Wiki for answers to frequently asked questions such as how
-to add an institution logo to the poster.
+See the [FAQ] in the gemini's wiki for answers to frequently asked questions.
 
 ## Design goals
 
@@ -49,16 +40,8 @@ components are greatly appreciated! Given the subjective nature of design,
 you're encouraged to open an issue or pull request early to get feedback before
 investing a lot of time in implementing a new feature.
 
-## License
-
-Copyright (c) 2018-2020 Anish Athalye. Released under the MIT License. See
-[LICENSE.md][license] for details.
-
-[beamerposter]: https://github.com/deselaers/latex-beamerposter
-[Auriga]: https://github.com/anishathalye/auriga
 [LuaTeX]: http://www.luatex.org/
 [CTAN]: https://ctan.org/
 [Raleway]: https://www.fontsquirrel.com/fonts/raleway
 [Lato]: https://www.fontsquirrel.com/fonts/lato
-[license]: LICENSE.md
 [FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
