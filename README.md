@@ -4,7 +4,7 @@
 
 # Unofficial Poster Template for UChicago Computer Science
 
-A fork of [Gemini](https://github.com/anishathalye/gemini).
+A fork of [Gemini](https://github.com/anishathalye/gemini). Also available on [Overleaf]([url](https://www.overleaf.com/latex/templates/unofficial-poster-template-for-uchicago-computer-science/kbbmbdxwbypb)).
 
 ## Dependencies
 
